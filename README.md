@@ -486,11 +486,6 @@ sns.histplot(data=df, x="course_Certificate_type")
 
 
 
-    <AxesSubplot:title={'center':'Distribution Of Certificate types'}, xlabel='Certificate types', ylabel='Count'>
-
-
-
-
     
 ![png](Images/output_37_1.png)
     
@@ -520,11 +515,6 @@ plt.xlabel("Course Difficulty")
 plt.ylabel("Count")
 sns.histplot(data=df, x="course_difficulty")
 ```
-
-
-
-
-    <AxesSubplot:title={'center':'Distribution Of Course Difficulty'}, xlabel='Course Difficulty', ylabel='Count'>
 
 
 
@@ -612,15 +602,6 @@ plt.xlabel("Course Rating")
 plt.ylabel("Frequency")
 sns.kdeplot(data=df, x="course_rating")
 ```
-
-
-
-
-    <AxesSubplot:title={'center':'Distribution Of Course Ratings'}, xlabel='Course Rating', ylabel='Frequency'>
-
-
-
-
     
 ![png](Images/output_46_1.png)
     
