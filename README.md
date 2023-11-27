@@ -201,7 +201,6 @@ df.head().style.hide(axis="index")
 
 
 
-<style type="text/css">
 </style>
 <table id="T_a9667">
   <thead>
@@ -395,7 +394,6 @@ df[df["course_title"].duplicated(keep="first") | df["course_title"].duplicated(k
 
 
 
-<style type="text/css">
 </style>
 <table id="T_8df35">
   <thead>
@@ -724,7 +722,6 @@ grouped_title_top_five.rename(columns={'course_title': 'Course Title',
 
 
 
-<style type="text/css">
 </style>
 <table id="T_88305">
   <thead>
@@ -810,7 +807,6 @@ grouped_by_cert_top.rename(columns={"course_organization": "Course Organization"
 
 
 
-<style type="text/css">
 </style>
 <table id="T_688cc">
   <thead>
@@ -911,7 +907,6 @@ styled_df
 
 
 
-<style type="text/css">
 </style>
 <table id="T_924da">
   <thead>
@@ -1005,7 +1000,6 @@ best_org_types.style.hide(axis="index")
 
 
 
-<style type="text/css">
 </style>
 <table id="T_dc06c">
   <thead>
