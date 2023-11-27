@@ -486,9 +486,9 @@ sns.histplot(data=df, x="course_Certificate_type")
 
 
 
-    
-![png](Images/output_37_1.png)
-    
+<p align="center">
+  <img src="Images/output_37_1.png">
+</p>   
 
 
 Plot showing that "SPECIALIZATION" and "COURSE" types are dominating over "PROFESSIONAL CERTIFICATE"                            
@@ -516,11 +516,9 @@ plt.ylabel("Count")
 sns.histplot(data=df, x="course_difficulty")
 ```
 
-
-
-
-    
-![png](Images/output_41_1.png)
+<p align="center">
+  <img src="Images/output_41_1.png">
+</p>
     
 
 
@@ -602,9 +600,10 @@ plt.xlabel("Course Rating")
 plt.ylabel("Frequency")
 sns.kdeplot(data=df, x="course_rating")
 ```
-    
-![png](Images/output_46_1.png)
-    
+
+<p align="center">
+  <img src="Images/output_36_1.png">
+</p>
 
 
 We can see that courses have high rating, most of them goes from 4.1 to 5.0, people tend to rate course higher than lower. Now let's check distribution of students based on enrollment size.
@@ -635,8 +634,9 @@ plt.title("Distribution of Students Based on Enrollment Size")
 
 ```
 
-    
-![png](Images/output_48_1.png)
+<p align="center">
+  <img src="Images/output_48_1.png">
+</p>
     
 
 
@@ -667,11 +667,9 @@ plt.xlabel("Course Title") # x Label
 plt.ylabel("Enrolled Students (Million)") # y Label
 ```
 
-
-    
-![png](Images/output_52_1.png)
-    
-
+<p align="center">
+  <img src="Images/output_52_1.png">
+</p>
 
 
 ```python
@@ -743,10 +741,9 @@ plt.xticks(rotation=45, ha="right") # Rotate 45 degrees
 plt.ylabel("Enrolled Students (Million)") # y Label
 ```
 
-
-![png](Images/output_57_1.png)  
-    
-
+<p align="center">
+  <img src="Images/output_57_1.png">
+</p>
 
 
 ```python
@@ -833,11 +830,9 @@ for plot_num in range(0, len(cert_types)):
 plt.subplots_adjust(hspace=0.5)
 ```
 
-
-    
-![png](Images/output_61_0.png)
-    
-
+<p align="center">
+  <img src="Images/output_61_0.png">
+</p>
 
 
 ```python
