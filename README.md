@@ -635,14 +635,6 @@ plt.title("Distribution of Students Based on Enrollment Size")
 
 ```
 
-
-
-
-    Text(0.5, 1.0, 'Distribution of Students Based on Enrollment Size')
-
-
-
-
     
 ![png](Images/output_48_1.png)
     
@@ -674,13 +666,6 @@ plt.xticks(rotation=45, ha="right") # Rotate x Labels by 45 degrees
 plt.xlabel("Course Title") # x Label
 plt.ylabel("Enrolled Students (Million)") # y Label
 ```
-
-
-
-
-    Text(0, 0.5, 'Enrolled Students (Million)')
-
-
 
 
     
@@ -759,15 +744,7 @@ plt.ylabel("Enrolled Students (Million)") # y Label
 ```
 
 
-
-
-    Text(0, 0.5, 'Enrolled Students (Million)')
-
-
-
-
-    
-![png](Images/output_57_1.png)
+![png](Images/output_57_1.png)  
     
 
 
